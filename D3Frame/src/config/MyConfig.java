@@ -35,8 +35,8 @@ public class MyConfig extends JFinalConfig{
 	@Override
 	public void configRoute(Routes me) {
 		// TODO Auto-generated method stub
-		me.add("/hello",demo.HelloController.class);
-		me.add("/d3Frame",D3Controller.class,"/d3Frame");
+		me.add("/hello",demo.HelloController.class,"/hello");
+		me.add("/d3Frame",d3Frame.D3Controller.class,"/d3Frame");
 	}
 
 	public static void main(String[] args) {
