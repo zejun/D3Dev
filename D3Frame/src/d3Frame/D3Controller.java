@@ -6,7 +6,9 @@ public class D3Controller extends Controller{
 
 	
 	public void index(){
-		renderText("D3 Frame index.");
+		renderText("This is D3 controller demo");
 	}
+	
+	
 	
 }
