@@ -26,3 +26,35 @@
   font: 10px sans-serif;
   text-anchor: end;
 }
+.chart3 rect {
+  fill: steelblue;
+}
+
+.chart3 text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
